@@ -1,0 +1,82 @@
+.stitches-airlines_logos(@x: 0, @y: 0, @width: 0, @height: 0) {
+  background-position: @x @y;
+  width: @width;
+  height: @height;
+}
+
+.airlines_logos {
+  background: url(/_/images/airlines_logos.png) no-repeat;
+  display: inline-block;
+
+  &.c_logo_american_airlines {
+    .stitches-airlines_logos(0, 0, 194px, 40px);
+  }
+
+  &.c_logo_british_airways {
+    .stitches-airlines_logos(0, -40px, 176px, 40px);
+  }
+
+  &.c_logo_easyjet {
+    .stitches-airlines_logos(-194px, 0, 129px, 40px);
+  }
+
+  &.c_logo_ebookers {
+    .stitches-airlines_logos(-176px, -40px, 135px, 40px);
+  }
+
+  &.c_logo_emirates {
+    .stitches-airlines_logos(0, -80px, 59px, 40px);
+  }
+
+  &.c_logo_expedia {
+    .stitches-airlines_logos(-59px, -80px, 116px, 40px);
+  }
+
+  &.c_logo_iberia {
+    .stitches-airlines_logos(-175px, -80px, 146px, 40px);
+  }
+
+  &.c_logo_kilroy {
+    .stitches-airlines_logos(0, -120px, 83px, 40px);
+  }
+
+  &.c_logo_klm {
+    .stitches-airlines_logos(-83px, -120px, 69px, 40px);
+  }
+
+  &.c_logo_lufthansa {
+    .stitches-airlines_logos(-152px, -120px, 141px, 40px);
+  }
+
+  &.c_logo_ryanair {
+    .stitches-airlines_logos(0, -160px, 136px, 40px);
+  }
+
+  &.c_logo_scyscanner {
+    .stitches-airlines_logos(-136px, -160px, 169px, 40px);
+  }
+
+  &.c_logo_tap_portugal {
+    .stitches-airlines_logos(0, -200px, 176px, 40px);
+  }
+
+  &.c_logo_transavia {
+    .stitches-airlines_logos(0, -240px, 193px, 40px);
+  }
+
+  &.c_logo_turkish_airlines {
+    .stitches-airlines_logos(0, -280px, 179px, 40px);
+  }
+
+  &.c_logo_united {
+    .stitches-airlines_logos(-323px, 0, 175px, 40px);
+  }
+
+  &.c_logo_us_airways {
+    .stitches-airlines_logos(-293px, -120px, 189px, 40px);
+  }
+
+  &.c_logo_virginia_australia {
+    .stitches-airlines_logos(-311px, -40px, 129px, 40px);
+  }
+}

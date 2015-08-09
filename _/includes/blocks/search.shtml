@@ -1,0 +1,86 @@
+<div class="search_box tabs">
+  <a href="#" class="active">Flights</a>
+  <a href="#">Hotels</a>
+
+  <div>
+	<div class="flights_tab active">
+	  <form action="search_result.shtml">
+		<div class="search">
+		  <div class="direction flights">
+			<span><i class="icon direction_a"></i><input type="text" id="flights_directions_from_inp" class="direction from" placeholder="From..."/></span>
+		  </div>
+		  <div class="switch"><a class="btn" href="#" id="flights_switch_directions"><i class="icon switch"></i></a></div>
+		  <div class="direction flights">
+			<span><i class="icon direction_b"></i><input type="text" id="flights_directions_to_inp" class="direction to" placeholder="To..."/></span>
+		  </div>
+		  <div class="calendar flights">
+			<span><i class="icon calendar_depart"></i><input type="text" id="flights_calendar_depart_inp" class="date depart" placeholder="Depart date"/><a href="#" class="icon clear"></a></span>
+		  </div>
+		  <div class="calendar flights">
+			<span><i class="icon calendar_return"></i><input type="text" id="flights_calendar_return_inp" class="date return" placeholder="Return date"/><a href="#" class="icon clear"></a></span>
+		  </div>
+		  <div class="submit flights">
+			<button type="submit" class="btn dot">Search Flights</button>
+		  </div>
+		</div>
+	  </form>
+	</div>
+	<div class="hotels_tab">
+	  <form action="search_result.shtml">
+		<div class="search">
+		  <div class="direction hotels">
+			<span><i class="icon direction_a"></i><input type="text" id="hotels_destination_inp" name="search_value" class="direction" placeholder="Destination or hotel name..."/></span>
+		  </div>
+		  <div class="calendar hotels">
+			<span><i class="icon calendar_depart"></i><input type="text" id="hotels_calendar_depart_inp" name="calendar_depart" class="date depart" placeholder="Depart date"/><a href="#" class="icon clear"></a></span>
+		  </div>
+		  <div class="calendar hotels">
+			<span><i class="icon calendar_return"></i><input type="text" id="hotels_calendar_return_inp" name="calendar_return" class="date return" placeholder="Return date"/><a href="#" class="icon clear"></a></span>
+		  </div>
+		  <div class="persons_selector hotels">
+			<input type="hidden" id="hotels_persons_inp" name="persons" value="1,0"/>
+			<span class="dropdown_menu">
+			  <a href="#" class="toggle select_toggle" id="hotels_persons_menu_toggle"><span>Persons: <i class="icon-male"></i> 1</span> <i class="icon-angle-down"></i></a>
+			  <div class="cont">
+				<div class="range_slider adults mb10" data-result="number" data-left="1" data-min="1" data-max="15"></div>
+				<div class="range_slider children" data-result="number" data-left="0" data-min="0" data-max="15"></div>
+			  </div>
+			</span>
+		  </div>
+		  <div class="submit hotels">
+			<button type="submit" class="btn dot">Search Hotels</button>
+		  </div>
+		</div>
+		<ul class="params">
+		  <li><label><input type="radio" name="travel_purpose" value="business"/> Business</label></li>
+		  <li><label><input type="radio" name="travel_purpose" value="leisure" checked/> Leisure</label></li>
+		  <li><a href="#" id="hotels_more_options_toggle"><i class="icon-plus"></i>More options</a></li>
+		</ul>
+		<div id="hotels_more_options_cont" class="more_options">
+		  <div class="dt">
+			<div class="dtc">
+			  <b>Price</b>
+			  <label><input name="buget_type" value="1" type="checkbox"> Budget</label>
+			  <label><input name="buget_type" value="2" type="checkbox"> Economy</label>
+			  <label><input name="buget_type" value="3" type="checkbox"> Moderate</label>
+			  <label><input name="buget_type" value="4" type="checkbox"> Deluxe</label>
+			  <label><input name="buget_type" value="5" type="checkbox"> Premium</label>
+			</div>
+			<div class="dtc">
+			  <b>Star rating</b>
+			  <label><input name="hotel_star_rating" type="checkbox"> 1 star</label>
+			  <label><input name="hotel_star_rating" type="checkbox"> 2 stars</label>
+			  <label><input name="hotel_star_rating" type="checkbox"> 3 stars</label>
+			  <label><input name="hotel_star_rating" type="checkbox"> 4 stars</label>
+			  <label><input name="hotel_star_rating" type="checkbox"> 5 stars</label>
+			  <label><input name="hotel_star_rating" type="checkbox"> Unrated</label>
+			</div>
+		  </div>
+
+
+
+		</div>
+	  </form>
+	</div>
+  </div>
+</div>

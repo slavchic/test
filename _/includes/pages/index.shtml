@@ -1,0 +1,211 @@
+<div class="container">
+  <div class="awards" style="display: none">
+	<a href="#"><img src="_/images/icon_travolution_awards.png" width="128" height="30" alt="Travolution Awards"/></a>
+  </div>
+  <div class="jumbotron slogans">
+	<div class="wrapper">
+	  <div>
+		<h2>Search for cheapest flights now!</h2>
+		<p>We trawl the high street travels agents find the ones with the most<br>competitive prices.</p>
+	  </div>
+	  <div>
+		<h2>Search for cheapest flights 2!</h2>
+		<p>We trawl the high street travels agents find the ones with the most<br>competitive prices.</p>
+	  </div>
+	  <div>
+		<h2>Search for cheapest flights 3!</h2>
+		<p>We trawl the high street travels agents find the ones with the most<br>competitive prices.</p>
+	  </div>
+	  <div>
+		<h2>Search for cheapest flights 4!</h2>
+		<p>We trawl the high street travels agents find the ones with the most<br>competitive prices.</p>
+	  </div>
+	  <div>
+		<h2>Search for cheapest flights 5!</h2>
+		<p>We trawl the high street travels agents find the ones with the most<br>competitive prices.</p>
+	  </div>
+	</div>
+  </div>
+  <!--#include virtual="/_/includes/blocks/search.shtml" -->
+  <div class="features">
+	<div class="top">DirectFlights offer you a quick and easy search facility which sources cheap flights, hotels
+	  and car hire anywhere in the world.
+	</div>
+	<div class="list">
+	  <div class="wrapper">
+		<div>
+		  <h3>Fast & Free</h3>
+		  <p>Instantly see the best prices and options for your flight search with just one click. There is no need for
+			annoying registering or logging. What’s more its free to use!</p>
+		</div>
+		<div>
+		  <h3>Cheapest Prices</h3>
+		  <p>High street travel agents tend to have very good rates from the airlines to keep them competitive, as
+			well as the national agents, our teams aim to have these agents onboard.</p>
+		</div>
+	  </div>
+	  <div class="logos">
+		<div>
+		  <span class="airlines_logos c_logo_american_airlines"></span>
+		  <span class="airlines_logos c_logo_british_airways"></span>
+		  <span class="airlines_logos c_logo_easyjet"></span>
+		  <span class="airlines_logos c_logo_ebookers"></span>
+		  <span class="airlines_logos c_logo_emirates"></span>
+		  <span class="airlines_logos c_logo_expedia"></span>
+		  <span class="airlines_logos c_logo_iberia"></span>
+		  <span class="airlines_logos c_logo_kilroy"></span>
+		  <span class="airlines_logos c_logo_klm"></span>
+		  <span class="airlines_logos c_logo_lufthansa"></span>
+		  <span class="airlines_logos c_logo_ryanair"></span>
+		  <span class="airlines_logos c_logo_scyscanner"></span>
+		  <span class="airlines_logos c_logo_tap_portugal"></span>
+		  <span class="airlines_logos c_logo_transavia"></span>
+		  <span class="airlines_logos c_logo_turkish_airlines"></span>
+		  <span class="airlines_logos c_logo_united"></span>
+		  <span class="airlines_logos c_logo_us_airways"></span>
+		  <span class="airlines_logos c_logo_virginia_australia"></span>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <div class="offers">
+	<div class="jumbotron">
+	  <h3>Popular destinations</h3>
+
+	  <div class="wrapper">
+		<div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_1.jpg" alt=""/></a>
+
+			<div>Australia
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_2.jpg" alt=""/></a>
+
+			<div>Italy
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_3.jpg" alt=""/></a>
+
+			<div>France
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_4.jpg" alt=""/></a>
+
+			<div>Saudi Arabia
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_5.jpg" alt=""/></a>
+
+			<div>Portugal
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_6.jpg" alt=""/></a>
+
+			<div>Shri Lanka
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		</div>
+		<div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_1.jpg" alt=""/></a>
+
+			<div>Australia
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_2.jpg" alt=""/></a>
+
+			<div>Italy
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_3.jpg" alt=""/></a>
+
+			<div>France
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_4.jpg" alt=""/></a>
+
+			<div>Saudi Arabia
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_5.jpg" alt=""/></a>
+
+			<div>Portugal
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_6.jpg" alt=""/></a>
+
+			<div>Shri Lanka
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		</div>
+		<div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_1.jpg" alt=""/></a>
+
+			<div>Australia
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_2.jpg" alt=""/></a>
+
+			<div>Italy
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_3.jpg" alt=""/></a>
+
+			<div>France
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_4.jpg" alt=""/></a>
+
+			<div>Saudi Arabia
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_5.jpg" alt=""/></a>
+
+			<div>Portugal
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		  <div>
+			<a href="#"><img src="_/images/travel_sample_6.jpg" alt=""/></a>
+
+			<div>Shri Lanka
+			  <span><a href="#">Direct flights</a> / <a href="#">Cheap flights</a></span>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>

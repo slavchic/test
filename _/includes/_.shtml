@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flight Direct</title>
+	<link rel="stylesheet" href="_/css/main.css"/>
+	<script src="_/js/main.js"></script>
+	<script src="_/js/custom.js"></script>
+
+	<!--#if expr="$page=index" -->
+	<script src="_/js/page_index.js"></script>
+	<!--#elif expr="$page=search_result" -->
+	<script src="_/js/page_search_results.js"></script>
+	<!--#endif -->
+  </head>
+  <body>
+
+	<main>
+	  <div class="container"><header>
+		<div>
+		  <a href="index.shtml" class="logo"><h1>Flight Direct</h1></a>
+		</div>
+		<div class="slogan mobile_hidden dn">Find and compare the best flight and holiday<br>deals from hundreds of websites instantly.</div>
+
+		<nav>
+
+		  <span class="dropdown_menu">
+
+			<a class="toggle hover" href="#">≡</a>
+			<ul>
+			  <li><a class="" href="#">Advertise</a></li>
+			  <li><a class="" href="#">Travel Guide</a></li>
+			  <li><a class="" href="#">Sitemap</a></li>
+			  <li><a class="" href="#">About Us</a></li>
+			  <li><a class="" href="#">Contact Us</a></li>
+			  <li><a class="" href="#">Top Destinations</a></li>
+			  <li><a class="" href="#">White Label</a></li>
+			  <li><a class="" href="#">Top Countries</a></li>
+			  <li><a class="" href="#">Top Airports</a></li>
+			  <li><a class="" href="#">Newsletter Archive</a></li>
+			  <li><a class="" href="#">Deal Of The Week</a></li>
+			  <li class="desktop_hidden"><a class="" href="#"><i class="social_icon fb"></i> Facebook</a></li>
+			  <li class="desktop_hidden"><a class="" href="#"><i class="social_icon tw"></i> Twitter</a></li>
+			  <li class="desktop_hidden"><a class="" href="#"><i class="social_icon gp"></i> Google Plus</a></li>
+			  <li class="div desktop_hidden"><a class="" href="#"><i class="icon phone"></i> Download App</a></li>
+			  <li class="desktop_hidden"><a class="" href="#"><i class="icon english"></i> English</a></li>
+			</ul>
+		  </span>
+		</nav>
+
+	  </header></div>
+	  <!--#include virtual="pages/$page.shtml" -->
+	</main>
+	<footer>
+	  <div class="bottom">
+		<div class="container">
+		  <div><span class="logo"></span><span>© 2015 <b>DirectFlights</b><br>
+					Bemin House, Cox Lane, Chessington, Surrey, KT9 1SG, Phone: 08707 747 748</span></div>
+		  <div class="aright"><a href="#">Privacy Policy</a> | <a href="#">Legal Notice</a> | <a href="#">Site Map</a> |
+			<a href="#">Support</a></div>
+		</div>
+	  </div>
+	</footer>
+  </body>
+</html>

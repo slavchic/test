@@ -1,0 +1,2 @@
+<!--#set var="page" value="search_result" -->
+<!--#include virtual="_/includes/_.shtml" -->

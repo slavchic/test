@@ -1,0 +1,260 @@
+<div class="container">
+  <!--include virtual="/_/includes/blocks/search.shtml" -->
+  <div class="search_results">
+	<aside class="filters">
+	  <div>
+		<div class="expanded">
+		  <a href="#"><i></i>Show prices</a>
+
+		  <div>
+			<div class="range_slider" data-type="range" data-result="number" data-left="1000" data-right="3000" data-min="200" data-max="4000"></div>
+		  </div>
+		</div>
+		<div class="expanded">
+		  <a href="#"><i></i>Stopovers</a>
+
+		  <div>
+			<label><input type="checkbox" value="1" class="active"/> All</label>
+			<label><b>444$</b><input type="checkbox" value="2"/> Direct</label>
+			<label><b>321$</b><input type="checkbox" value="3"/> 1 Stop</label>
+			<label><b>304$</b><input type="checkbox" value="3"/> 2+ Stops</label>
+		  </div>
+		</div>
+		<div class="price_range expanded">
+		  <a href="#"><i></i>Outbound flight time</a>
+
+		  <div>
+			<div class="range_slider" data-type="range" data-result="time" data-left="5:40" data-right="20:15" data-min="00:00" data-max="24:00"></div>
+		  </div>
+		</div>
+		<div class="price_range">
+		  <a href="#"><i></i>Inbound flight time</a>
+
+		  <div>
+		  </div>
+		</div>
+		<div class="price_range">
+		  <a href="#"><i></i>Duration</a>
+
+		  <div>
+		  </div>
+		</div>
+		<div class="price_range">
+		  <a href="#"><i></i>Airports</a>
+
+		  <div>
+		  </div>
+		</div>
+		<div class="price_range">
+		  <a href="#"><i></i>Airlines</a>
+
+		  <div>
+		  </div>
+		</div>
+		<div class="price_range">
+		  <a href="#"><i></i>Sort by SmartScore</a>
+
+		  <div>
+		  </div>
+		</div>
+		<div class="price_range">
+		  <a href="#"><i></i>Wi-Fi</a>
+
+		  <div>
+		  </div>
+		</div>
+		<div class="price_range">
+		  <a href="#"><i></i>Seat space</a>
+
+		  <div>
+		  </div>
+		</div>
+	  </div>
+	</aside>
+	<section>
+	  <div class="stats">
+		<div>Cheapest - 265$
+		  <span>24h 25m</span>
+		</div>
+		<div>
+		  Quickest - 365$
+		  <span>7h 25m</span>
+		</div>
+		<div>
+		  Best - 335$
+		  <span>8h 15m</span>
+		</div>
+	  </div>
+	  <div class="graph">
+		<div class="depart">
+		  <span class="city">New York</span>
+		  <img src="/_/images/price_graph_1.png" alt="" class="img_responsive"/>
+		</div>
+		<div class="arrow icon-right-open"></div>
+		<div class="return">
+		  <span class="city">San Francisco</span>
+		  <img src="/_/images/price_graph_2.png" alt="" class="img_responsive"/>
+		</div>
+	  </div>
+	  <div class="result_list">
+		<div>
+		  <div class="flights">
+			<div class="depart">
+			  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+			  <div class="from"><span><b>KIV 02:15</b>Chisinau</span></div>
+			  <div class="time"><b>11h 25m</b>1 stop</div>
+			  <div class="to"><span><b>DXB 12:45</b>Dubai</span></div>
+			</div>
+			<div class="return">
+			  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+			  <div class="from"><span><b>DXB 15:20</b>Dubai</span></div>
+			  <div class="time"><b>11h 25m</b>2 stops</div>
+			  <div class="to"><span><b>KIV 14:05</b>Chisinau</span></div>
+			</div>
+			<div class="more">
+			  <div><a class="details" href="#">Flight Details</a></div>
+			</div>
+		  </div>
+		  <div class="price">
+			<b>325 <i>USD</i></b>
+			<a class="btn angle dot" href="#">Book</a>
+			OmegaFlightstore
+		  </div>
+		</div>
+		<div>
+		  <div class="flights">
+			<div class="depart">
+			  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+			  <div class="from"><span><b>KIV 02:15</b>Chisinau</span></div>
+			  <div class="time"><b>11h 25m</b>1 stop</div>
+			  <div class="to"><span><b>DXB 12:45</b>Dubai</span></div>
+			</div>
+			<div class="return">
+			  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+			  <div class="from"><span><b>DXB 15:20</b>Dubai</span></div>
+			  <div class="time"><b>11h 25m</b>2 stops</div>
+			  <div class="to"><span><b>KIV 14:05</b>Chisinau</span></div>
+			</div>
+			<div class="more">
+			  <div><a class="details" href="#">Flight Details</a></div>
+			</div>
+		  </div>
+		  <div class="price">
+			<b>325 <i>USD</i></b>
+			<a class="btn angle dot" href="#">Book</a>
+			OmegaFlightstore
+		  </div>
+		</div>
+		<div>
+		  <div class="flights">
+			<div class="depart">
+			  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+			  <div class="from"><span><b>KIV 02:15</b>Chisinau</span></div>
+			  <div class="time"><b>11h 25m</b>1 stop</div>
+			  <div class="to"><span><b>DXB 12:45</b>Dubai</span></div>
+			</div>
+			<div class="return">
+			  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+			  <div class="from"><span><b>DXB 15:20</b>Dubai</span></div>
+			  <div class="time"><b>11h 25m</b>2 stops</div>
+			  <div class="to"><span><b>KIV 14:05</b>Chisinau</span></div>
+			</div>
+			<div class="more">
+			  <div><a class="details" href="#">Flight Details</a></div>
+			</div>
+		  </div>
+		  <div class="price">
+			<b>325 <i>USD</i></b>
+			<a class="btn angle dot" href="#">Book</a>
+			OmegaFlightstore
+		  </div>
+		</div>
+		<div>
+		  <div class="flights">
+			<div class="depart">
+			  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+			  <div class="from"><span><b>KIV 02:15</b>Chisinau</span></div>
+			  <div class="time"><b>11h 25m</b>1 stop</div>
+			  <div class="to"><span><b>DXB 12:45</b>Dubai</span></div>
+			</div>
+			<div class="return">
+			  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+			  <div class="from"><span><b>DXB 15:20</b>Dubai</span></div>
+			  <div class="time"><b>11h 25m</b>2 stops</div>
+			  <div class="to"><span><b>KIV 14:05</b>Chisinau</span></div>
+			</div>
+			<div class="more">
+			  <div><a class="details" href="#">Flight Details</a></div>
+			</div>
+		  </div>
+		  <div class="price">
+			<b>325 <i>USD</i></b>
+			<a class="btn angle dot" href="#">Book</a>
+			OmegaFlightstore
+		  </div>
+		</div>
+		<div>
+		  <div class="flights">
+			<div class="depart">
+			  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+			  <div class="from"><span><b>KIV 02:15</b>Chisinau</span></div>
+			  <div class="time"><b>11h 25m</b>1 stop</div>
+			  <div class="to"><span><b>DXB 12:45</b>Dubai</span></div>
+			</div>
+			<div class="return">
+			  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+			  <div class="from"><span><b>DXB 15:20</b>Dubai</span></div>
+			  <div class="time"><b>11h 25m</b>2 stops</div>
+			  <div class="to"><span><b>KIV 14:05</b>Chisinau</span></div>
+			</div>
+			<div class="more">
+			  <div><a class="details" href="#">Flight Details</a></div>
+			</div>
+		  </div>
+		  <div class="price">
+			<b>325 <i>USD</i></b>
+			<a class="btn angle dot" href="#">Book</a>
+			OmegaFlightstore
+		  </div>
+		</div>
+		<div>
+		  <div class="flights">
+			<div class="depart">
+			  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+			  <div class="from"><span><b>KIV 02:15</b>Chisinau</span></div>
+			  <div class="time"><b>11h 25m</b>1 stop</div>
+			  <div class="to"><span><b>DXB 12:45</b>Dubai</span></div>
+			</div>
+			<div class="return">
+			  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+			  <div class="from"><span><b>DXB 15:20</b>Dubai</span></div>
+			  <div class="time"><b>11h 25m</b>2 stops</div>
+			  <div class="to"><span><b>KIV 14:05</b>Chisinau</span></div>
+			</div>
+			<div class="more">
+			  <div><a class="details" href="#">Flight Details</a></div>
+			</div>
+		  </div>
+		  <div class="price">
+			<b>325 <i>USD</i></b>
+			<a class="btn angle dot" href="#">Book</a>
+			OmegaFlightstore
+		  </div>
+		</div>
+	  </div>
+	  <a class="load_more_btn">
+		<span>Scroll down for more</span><br>
+		<i class="icon load_more"></i>
+	  </a>
+	</section>
+	<div class="compare">
+	  <div>
+		<div class="title">Compare sites<br>vs<br>DirectFlights</div>
+		<a href="#"><img src="_/images/bn1.png" alt=""/></a><a href="#"><img src="_/images/bn2.png" alt=""/></a><a href="#"><img src="_/images/bn3.png" alt=""/></a><a href="#"><img src="_/images/bn4.png" alt=""/></a>
+	  </div>
+	  <div class="adw">
+		Some Ad
+	  </div>
+	</div>
+  </div>
+</div>

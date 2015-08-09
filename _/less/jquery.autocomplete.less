@@ -1,0 +1,35 @@
+.autocomplete-suggestions {
+  border: 1px solid @orange;
+  background: #FFF;
+  overflow: auto;
+  .shadow;
+  strong {
+    font-weight: normal;
+    color: @cyan;
+  }
+  .autocomplete-suggestion {
+    padding: 7px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    .ani_fast;
+    &.autocomplete-suggestion {
+      border-top: 1px solid @llgrey;
+    }
+  }
+  .autocomplete-selected {
+    color: #fff;
+    background: @cyan;
+    strong {
+      color: #fff;
+    }
+  }
+  .autocomplete-group {
+    padding: 7px 10px;
+    strong {
+      display: block;
+      border-bottom: 2px solid @text_grey;
+    }
+  }
+}

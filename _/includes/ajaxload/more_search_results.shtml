@@ -1,0 +1,133 @@
+<div>
+  <div class="flights">
+	<div class="depart">
+	  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+	  <div class="from"><span><b>KIV 02:15</b>Chisinau</span></div>
+	  <div class="time"><b>11h 25m</b>1 stop</div>
+	  <div class="to"><span><b>DXB 12:45</b>Dubai</span></div>
+	</div>
+	<div class="return">
+	  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+	  <div class="from"><span><b>DXB 15:20</b>Dubai</span></div>
+	  <div class="time"><b>11h 25m</b>2 stops</div>
+	  <div class="to"><span><b>KIV 14:05</b>Chisinau</span></div>
+	</div>
+	<div class="more">
+	  <div><a class="details" href="#">Flight Details</a></div>
+	  <div><a href="#" class="smartscore"><i>94</i><img src="_/images/icon_smart_score.png" alt="SmartScore"/></a></div>
+	</div>
+  </div>
+  <div class="price">
+	OmegaFlightstore
+	<b>325 <i>USD</i></b>
+	<a class="btn angle dot" href="#">Book</a>
+  </div>
+</div>
+<div>
+  <div class="flights">
+	<div class="depart">
+	  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+	  <div class="from"><span><b>KIV 02:15</b>Chisinau</span></div>
+	  <div class="time"><b>11h 25m</b>1 stop</div>
+	  <div class="to"><span><b>DXB 12:45</b>Dubai</span></div>
+	</div>
+	<div class="return">
+	  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+	  <div class="from"><span><b>DXB 15:20</b>Dubai</span></div>
+	  <div class="time"><b>11h 25m</b>2 stops</div>
+	  <div class="to"><span><b>KIV 14:05</b>Chisinau</span></div>
+	</div>
+	<div class="more">
+	  <div><a class="details" href="#">Flight Details</a></div>
+	  <div>
+		<a href="#" class="smartscore"><i>94</i><img src="_/images/icon_smart_score.png" alt="SmartScore"/></a>
+	  </div>
+	</div>
+  </div>
+  <div class="price">
+	OmegaFlightstore
+	<b>325 <i>USD</i></b>
+	<a class="btn angle dot" href="#">Book</a>
+  </div>
+</div>
+<div>
+  <div class="flights">
+	<div class="depart">
+	  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+	  <div class="from"><span><b>KIV 02:15</b>Chisinau</span></div>
+	  <div class="time"><b>11h 25m</b>1 stop</div>
+	  <div class="to"><span><b>DXB 12:45</b>Dubai</span></div>
+	</div>
+	<div class="return">
+	  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+	  <div class="from"><span><b>DXB 15:20</b>Dubai</span></div>
+	  <div class="time"><b>11h 25m</b>2 stops</div>
+	  <div class="to"><span><b>KIV 14:05</b>Chisinau</span></div>
+	</div>
+	<div class="more">
+	  <div><a class="details" href="#">Flight Details</a></div>
+	  <div>
+		<a href="#" class="smartscore"><i>94</i><img src="_/images/icon_smart_score.png" alt="SmartScore"/></a>
+	  </div>
+	</div>
+  </div>
+  <div class="price">
+	OmegaFlightstore
+	<b>325 <i>USD</i></b>
+	<a class="btn angle dot" href="#">Book</a>
+  </div>
+</div>
+<div>
+  <div class="flights">
+	<div class="depart">
+	  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+	  <div class="from"><span><b>KIV 02:15</b>Chisinau</span></div>
+	  <div class="time"><b>11h 25m</b>1 stop</div>
+	  <div class="to"><span><b>DXB 12:45</b>Dubai</span></div>
+	</div>
+	<div class="return">
+	  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+	  <div class="from"><span><b>DXB 15:20</b>Dubai</span></div>
+	  <div class="time"><b>11h 25m</b>2 stops</div>
+	  <div class="to"><span><b>KIV 14:05</b>Chisinau</span></div>
+	</div>
+	<div class="more">
+	  <div><a class="details" href="#">Flight Details</a></div>
+	  <div>
+		<a href="#" class="smartscore"><i>94</i><img src="_/images/icon_smart_score.png" alt="SmartScore"/></a>
+	  </div>
+	</div>
+  </div>
+  <div class="price">
+	OmegaFlightstore
+	<b>325 <i>USD</i></b>
+	<a class="btn angle dot" href="#">Book</a>
+  </div>
+</div>
+<div>
+  <div class="flights">
+	<div class="depart">
+	  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+	  <div class="from"><span><b>KIV 02:15</b>Chisinau</span></div>
+	  <div class="time"><b>11h 25m</b>1 stop</div>
+	  <div class="to"><span><b>DXB 12:45</b>Dubai</span></div>
+	</div>
+	<div class="return">
+	  <div><a href="#"><img src="_/images/airline_1.png" alt="Qatar airlines"/></a></div>
+	  <div class="from"><span><b>DXB 15:20</b>Dubai</span></div>
+	  <div class="time"><b>11h 25m</b>2 stops</div>
+	  <div class="to"><span><b>KIV 14:05</b>Chisinau</span></div>
+	</div>
+	<div class="more">
+	  <div><a class="details" href="#">Flight Details</a></div>
+	  <div>
+		<a href="#" class="smartscore"><i>94</i><img src="_/images/icon_smart_score.png" alt="SmartScore"/></a>
+	  </div>
+	</div>
+  </div>
+  <div class="price">
+	OmegaFlightstore
+	<b>325 <i>USD</i></b>
+	<a class="btn angle dot" href="#">Book</a>
+  </div>
+</div>
