@@ -1,6 +1,6 @@
 dbg = function () {
   console.log(arguments);
-  //some change 3
+  //some change 6
 }
 $(function () {
 
