@@ -1,0 +1,7 @@
+{
+  "name": "test-dependency",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slavchic/test.git"
+  }
+}
