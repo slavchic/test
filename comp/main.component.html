@@ -1,1 +1,100 @@
-D:/wamp/www/ClinicmasterEnterprise-V3/src/app/modules/main/main.component.html
+123
+<app-context-toolbar id="contextToolbar" style="position: fixed; top:0;z-index:900000" [portalUser]="portalUser"></app-context-toolbar>
+
+<div  [innerHtml]="clinicColorsStyle"></div>
+
+
+ <app-chat></app-chat>
+
+
+
+<!-- <app-chat-indicator></app-chat-indicator> -->
+
+<div class="app-layout"
+     [class.rightSidebarIsOpen]="rightbarOpen$ | async"
+     [ngClass]="'nav'+sideBarStateEnum[navBarState]"
+>
+
+  <app-navigation [navigation]="navigation" [navBarState]="navBarState" [clinic]="currentClinic"></app-navigation>
+
+	<app-header  [navBarState]="navBarState"></app-header>
+
+  <div class="app-content" [ngClass]="{'loader-overlay loading': isContentLoading$ | async}">
+    <router-outlet *ngIf="true"></router-outlet>
+  </div>
+
+	<div class="app-rightbar">
+	  <div class="rightbar-content"><router-outlet name="rightbar"></router-outlet></div>
+	</div>
+
+	<div class="nav-shade-mobile" (click)="toggleSideMenuOpen()"></div>
+
+</div>
+
+
+
+<!-- processing popup -->
+<app-cm-popup-container *ngIf="isProcessing$ | async as processingData" [visible]="true" [panelClass]="'cm-popup small'"
+                        [animation]="'scale'" [outsideClick]="false">
+
+  <div class="app-modal app-modal-simple">
+    <div class="app-modal-header" *ngIf="!!processingData.title">
+      <h1>{{processingData.title | translate}}</h1>
+    </div>
+    <div class="app-modal-content">
+
+      <div class="app-form-panel app-form-panel-simple">
+        <div class="app-form-panel-content">
+          <div class="grid-row" *ngIf="!!processingData.text">
+            <div [innerHTML]="processingData.text"></div>
+          </div>
+          <div class="acenter">
+            <img src="assets/images/loading_ani.gif" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</app-cm-popup-container>
+
+<!-- idle popup  -->
+
+<app-cm-popup-container [visible]="userIdle$ | async"  [panelClass]="'cm-popup w600'" [animation]="'scale'" [outsideClick]="false">
+  <div *appPopupTemplate>
+
+    <div class="app-modal  app-modal-simple">
+      <div class="app-modal-header">
+        <h1 class="fs28 acenter fw500">{{'message.user_idle_message_title' | translate}}</h1>
+        <a href="javascript:void(0)" class="app-modal-close-icon" (click)="idleRestart()"></a>
+      </div>
+
+      <div class="app-modal-content acenter text-dark" >
+
+
+            <div class="mb25 fs16"><i class="icon-exclamation_line text-warning fs24 vam"></i> {{'message.user_idle_message_content' | translate}}</div>
+            <div class="p15 bg-xxlight">
+              <div class="fs15">{{'message.user_idle_message_time_left' | translate}}</div>
+              <span class="fs30 fw500">{{moment.utc(moment.duration(idleTimeOut, "seconds").subtract(userIdleCount, 'seconds').asMilliseconds()).format("mm:ss")}}</span>
+            </div>
+
+
+      </div>
+      <div class="app-modal-footer">
+        <div class="buttons-wrapper">
+          <a href="javascript:void(0)"
+             (click)="idleSignOut()"
+             class="simple-btn simple-btn-rounded simple-btn-text-grey simple-btn-md bigger-side-pads">
+            {{'message.user_idle_message_log_out' | translate}}
+          </a>
+
+          <a href="javascript:void(0)"
+             (click)="idleRestart()"
+             class="simple-btn simple-btn-rounded simple-btn-primary simple-btn-md bigger-side-pads">
+            {{'message.user_idle_message_continue' | translate}}
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</app-cm-popup-container>
